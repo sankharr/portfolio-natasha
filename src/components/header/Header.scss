@@ -1,0 +1,43 @@
+@import url(//db.onlinewebfonts.com/c/9475d6a0b79c164f9f605673714e75d9?family=Circular+Std+Medium);
+
+.Header {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0;
+  font-family: "Circular Std Medium";
+  align-items: center;
+//   border: 2px solid blue;
+}
+
+.Header__logo {
+  flex-grow: 1;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.Header__navItemsSection {
+    display: flex;
+}
+
+.Header__navButton {
+  border: unset;
+  background-color: unset;
+  font-family: "Circular Std Medium";
+  margin: 0.5rem 1rem;
+  font-size: 17px;
+  padding: 0.5rem;
+
+  &:hover {
+    border-bottom: 2px solid black;
+  }
+}
+
+.Header__socialSection {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.Header__socialIcon {
+    margin: 0 1rem;
+}
